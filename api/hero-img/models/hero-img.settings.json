@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hero_imgs",
+  "info": {
+    "name": "HeroImg"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img_url": {
+      "type": "string"
+    }
+  }
+}

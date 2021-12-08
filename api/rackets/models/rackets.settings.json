@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rackets",
+  "info": {
+    "name": "Rackets",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "img_url": {
+      "type": "string"
+    },
+    "img_url2": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "price": {
+      "required": true,
+      "type": "decimal"
+    }
+  }
+}
